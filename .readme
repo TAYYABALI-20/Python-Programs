@@ -1,0 +1,14 @@
+# Some notes generated while developing shopping store using Python
+
+# If the user inputs " mobile phones ", .strip() will remove the leading and trailing spaces, resulting in "mobile phones".
+
+# The .lower() method in Python converts all characters in a string to lowercase.
+
+# Example:
+
+# User input: " MoBile PHonEs "
+# After .strip(): "MoBile PHonEs"
+# After .lower(): "mobile phones"
+
+# Using 'in' in if and elif statements makes the code more efficient 
+# and easier to maintain, especially when checking against multiple potential matches.
