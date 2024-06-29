@@ -22,7 +22,7 @@ if answerQuestion1 == 'yes':
     
     print('\nPattern # 7: \n    * \n   *** \n  ***** \n ******* \n********* \n********* \n ******* \n  ***** \n   *** \n    *')
     
-    answerUestion2 = int(input('So, in order to learn any of the above Pattern just write a number between 1 - 7: '))
+    answerUestion2 = int(input('So, in order to learn any of the above Pattern just write a number between 1 - 1 (2 till 7 are in process): '))
     
     if answerUestion2 == 1:
         
