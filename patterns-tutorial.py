@@ -8,27 +8,25 @@ if answerQuestion1 == 'yes':
     
     print('\nBelow are some of the Patterns that you might be willing to learn.')
     
-    print('\nPattern # 1: \n    * \n   *** \n  ***** \n ******* \n*********')
+    print('\nPattern # 1 => Pyramid Triangle: \n    * \n   *** \n  ***** \n ******* \n*********')
     
-    print('\nPattern # 2: \n***** \n**** \n*** \n** \n*')
+    print('\nPattern # 2 => Right-Angled Triangle: \n* \n** \n*** \n**** \n*****')
+
+    print('\nPattern # 3 => Inverted Right-Angled Triangle: \n***** \n**** \n*** \n** \n*')
     
-    print('\nPattern # 3: \n    * \n   ** \n  *** \n **** \n*****')
+    print('\nPattern # 4 => Right-Aligned Inverted Right-Angled Triangle: \n***** \n **** \n  *** \n   ** \n    *')
     
-    print('\nPattern # 4: \n***** \n **** \n  *** \n   ** \n    *')
+    print('\nPattern # 5 => Right-Aligned Right-Angled Triangle: \n    * \n   ** \n  *** \n **** \n*****')
     
-    print('\nPattern # 5: \n* \n** \n*** \n**** \n*****')
-    
-    print('\nPattern # 6: \n        * \n      *** \n    ***** \n  ******* \n*********')
-    
-    print('\nPattern # 7: \n    * \n   *** \n  ***** \n ******* \n********* \n********* \n ******* \n  ***** \n   *** \n    *')
+    print('\nPattern # 7 => Diamond Triangle: \n    * \n   *** \n  ***** \n ******* \n********* \n********* \n ******* \n  ***** \n   *** \n    *')
     
     answerUestion2 = int(input('So, in order to learn any of the above Pattern just write a number between 1 - 1 (2 till 7 are in process): '))
     
     if answerUestion2 == 1:
         
-        print("\nGood Choice! let's start making it. \n\nPattern # 1: \n* \n** \n*** \n**** \n*****")
+        print("\nGood Choice! let's start making it. \n\nPattern # 1 => Pyramid Triangle: \n    * \n   *** \n  ***** \n ******* \n*********")
     
-        print("\nLook at the above Pattern is a Equilateral-Triangle so we can achieve this output in many ways but the easiest is using for loop.")
+        print("\nLook at the above Pattern is a Pyramid-Triangle so we can achieve this output in many ways but the easiest is using for loop.")
         
         answerUestion3 = str(input("\nWrite the 'for' keyword: "))
         
