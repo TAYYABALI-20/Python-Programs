@@ -7,4 +7,4 @@ number = int(input("Please enter a number, and we'll let you know if it's even o
 if number % 2 == 0 :
     print(f"Great choice! The number {number} is even.")
 else:
-     print(f"Great choice! The number {number} is even.")
+     print(f"Great choice! The number {number} is odd.")
