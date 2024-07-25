@@ -33,3 +33,23 @@ for i in range(len(matrices)):
         print(f'MatricIndex{i}', '\t', f'MatricIndex{j}', '\t', 'Sum of Matric Indexes')
         
         print('     ', i, '\t     ', j, '\t         ', sumOfMatrices[j])
+        
+        
+
+# Step 4: Construct the output string manually
+# output_str = "["
+
+# for i in range(len(matrices)):
+#     output_str += "["
+#     for j in range(len(matrices[i])):
+#         output_str += str(matrices[i][j])
+#         if j < len(matrices[i]) - 1:
+#             output_str += ", "
+#     output_str += "]"
+#     if i < len(matrices) - 1:
+#         output_str += ", "
+
+# output_str += "]"
+
+# Step 5: Print the constructed output string
+# print(output_str)
