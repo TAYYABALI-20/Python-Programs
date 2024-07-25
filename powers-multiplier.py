@@ -1,6 +1,6 @@
 n = int(input("Enter a number (n): "))
 
-maxPower = int(input("\nEnter the maximum power (maxPower): "))
+maxPower = int(input("\nEnter the maximum power (Max Power): "))
 
 print(f"\n{'n':<10} {'Power':<10} {'n raised to power':<10}")
 
